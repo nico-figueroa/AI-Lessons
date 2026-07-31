@@ -1,0 +1,14 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/Azure/azure-dev/main/schemas/v1.0/azure.yaml.json
+
+name: my-intelligent-app
+metadata:
+    template: azd-init@1.29.0
+services:
+    azure-search-openai-demo:
+        project: azure-search-openai-demo
+        host: containerapp
+        language: python
+resources:
+    azure-search-openai-demo:
+        type: host.containerapp
+        port: 80
