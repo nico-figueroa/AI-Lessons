@@ -21,7 +21,6 @@
     max-width: 400px;
     margin: 20px auto;
     position: relative;
-    user-select: none;
 }
 
 .slider-track {
